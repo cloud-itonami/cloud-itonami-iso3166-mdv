@@ -1,0 +1,13 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "mdv.dish.mas-huni", :name "Mas huni", :country "MDV", :kind :dish, :summary "Typical Maldivian breakfast dish consisting of tuna, onion, coconut, lime juice, salt and chili, typically eaten with flatbread and tea.", :url "https://en.wikipedia.org/wiki/Mas_huni", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mdv.dish.garudhiya", :name "Garudhiya", :country "MDV", :kind :dish, :summary "Clear fish broth, one of the basic and traditional food items of Maldivian cuisine, made primarily with tuna species and typically served with steamed rice or roshi.", :url "https://en.wikipedia.org/wiki/Garudhiya", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mdv.dish.rihaakuru", :name "Rihaakuru", :country "MDV", :kind :dish, :summary "Tuna-based thick sauce serving as a traditional condiment in Maldivian cuisine, produced as a byproduct when processing tuna.", :url "https://en.wikipedia.org/wiki/Rihaakuru", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mdv.product.maldive-fish", :name "Maldive fish", :country "MDV", :kind :product, :summary "Cured tuna traditionally produced in the Maldives, serving as a staple export across multiple regional cuisines.", :url "https://en.wikipedia.org/wiki/Maldive_fish", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "mdv.craft.boduberu", :name "Boduberu", :country "MDV", :kind :craft, :summary "Traditional Maldivian performance art of about 20 people, including three drummers and a lead singer, who create music with drums and other instruments while dancing, likely originating from Indian Ocean sailors centuries ago.", :url "https://en.wikipedia.org/wiki/Boduberu", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Mal%C3%A9_Friday_Mosque", :id "mdv.heritage.male-friday-mosque", :kind :heritage, :name-local "Hukuru Miskiy", :country "MDV", :retrieved-at "2026-07-17", :summary "Constructed between 1656-1658, the oldest and most ornate mosque in the Maldives, added to UNESCO's tentative World Heritage cultural list in 2008 for its coral stone architecture and traditional Maldivian craftsmanship.", :name "Malé Friday Mosque", :url-provenance :wikipedia-en}
+]
