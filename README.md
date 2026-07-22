@@ -1,9 +1,40 @@
 # cloud-itonami-iso3166-mdv
 
-**MDV**: Maldives.
+**`:implemented`** for **MDV** (Maldives). Flagship check
+`mdv-registration-missing`, tax check `mira-registration-unverified`.
 
-- public procurement
-- Company Registry
+Independent Public-Sector Market-Entry & Procurement Compliance Service:
+a MarketEntry-LLM advisor sealed behind a langgraph-clj `StateGraph`,
+censored by a 7-check Market-Entry Compliance Governor, with an
+append-only audit ledger and a 0→3 phase rollout gate. See
+`docs/business-model.md` for the Trust Controls this actor enforces and
+`docs/operator-guide.md` for the human-operator workflow.
+
+```
+clojure -M:dev:test   # run the full test suite
+clojure -M:lint       # clj-kondo, errors fail
+clojure -M:dev:run    # demo driver (marketentry.sim)
+```
+
+Regulatory grounding (verified against `.gov.mv`/`.egov.mv` government
+domains -- see `src/marketentry/facts.cljc` for full citations):
+
+- **Ministry of Finance (and Public Enterprises)** -- formulates and
+  administers public finance/procurement policy.
+  `https://www.finance.gov.mv/public-finance/legislation`
+- **Public Finance Regulation** -- issued by the Ministry of Finance;
+  sets the processes, procedures and requirements state institutions
+  must adhere to regarding public finances, including procurement.
+- **Business Registration Act** -- Law No. 18/2014, governing
+  business/commercial registration in the Maldives.
+  `https://business.egov.mv/Downloads/LawsAndRegulation/english-law-no-18-2014-business-registration-act.pdf`
+- **MIRA** -- Maldives Inland Revenue Authority, responsible for tax
+  administration and implementation of taxation policy (the Ministry
+  of Finance and Treasury formulates tax policy; MIRA administers it).
+
+There is no verified evidence of a national transactional
+e-procurement portal, and no citable, settled SME-threshold monetary
+value -- this actor does not claim either.
 
 AGPL-3.0-or-later.
 
