@@ -3,7 +3,7 @@
 Human-gated filing only. Every `:filing/draft`/`:filing/submit`
 proposal always pauses for a human market-entry operator's approval —
 there is no rollout phase in which either auto-commits (see
-`src/marketentry/phase.cljc`).
+`src/marketentry/phase.cljk`).
 
 ## Portal / channel
 
@@ -45,7 +45,7 @@ operator must fix the underlying engagement record (verify the
 Business Registration Act registration, correct the fee, verify the
 MIRA registration) before resubmitting, not approve past the governor.
 
-## Required evidence checklist (per `src/marketentry/facts.cljc`)
+## Required evidence checklist (per `src/marketentry/facts.cljk`)
 
 - Business Registration Act (Law No. 18/2014) registration record
 - MIRA tax registration record
@@ -57,5 +57,5 @@ file for the Maldives, and no citable, settled SME-threshold monetary
 value — secondary sources discuss such a policy proposal, but it is
 not encoded here as a fact or a governor check. If you find a
 verifiable primary-source citation for either, extend
-`src/marketentry/facts.cljc` — do not hand-edit a claim into this
+`src/marketentry/facts.cljk` — do not hand-edit a claim into this
 guide or any other doc without an official source.

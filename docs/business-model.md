@@ -27,7 +27,7 @@ Maldivian public-sector contracts, who need to track:
 1. **Engagement intake** — normalize the operator's own case data
    (operator name, engagement fee terms). No new facts invented.
 2. **Jurisdiction assessment** — hand back the MDV evidence checklist
-   from `src/marketentry/facts.cljc`, always citing an official source
+   from `src/marketentry/facts.cljk`, always citing an official source
    (`finance.gov.mv`, `business.egov.mv`). A jurisdiction not in the
    catalog gets NO checklist — the actor states plainly that it has no
    official spec-basis rather than guessing.
@@ -61,7 +61,7 @@ What is NOT verified, and is therefore NOT claimed:
 - A national transactional e-procurement portal. Unlike, say, Angola's
   SNCP e-procurement system or Mauritius's PPO e-Procurement System, no
   such portal was independently confirmed for the Maldives —
-  `:national-spec` in `src/marketentry/facts.cljc` says so honestly.
+  `:national-spec` in `src/marketentry/facts.cljk` says so honestly.
 - A specific SME-threshold monetary value. Secondary sources discuss a
   policy proposal to reserve government tenders below a specified
   value threshold exclusively for SMEs, and provisions permitting
@@ -70,7 +70,7 @@ What is NOT verified, and is therefore NOT claimed:
   settled, cited legal text with a specific number, so **neither is
   encoded here as a fact, a required-evidence item, or a governor
   check.** If you find a verifiable primary-source citation for a
-  specific threshold, extend `src/marketentry/facts.cljc` — do not
+  specific threshold, extend `src/marketentry/facts.cljk` — do not
   hand-edit a number into this document or any other doc without one.
 - A dedicated MIRA web page. This dossier established MIRA's role from
   the Ministry of Finance's own description of the tax-policy/
